@@ -7,7 +7,7 @@ Based on [mockServer](http://www.mock-server.com/), using its docker distributio
 ## Build
 
 ```shell script
-# may require `sodu` depends on yous docker setting
+# may require `sudo` depends on yous docker setting
 docker build -t bonita-mock-server .
 ```
 
@@ -19,7 +19,7 @@ Edit [initializerJson.json](data/initializerJson.json) file. many examples avail
 ## Run
 
 ```shell script
-# may require `sodu` depends on yous docker setting
+# may require `sudo` depends on yous docker setting
 docker run -d \
  --name mockserver \
  -p 1080:1080 \
@@ -44,5 +44,6 @@ Response
 ## Check logs
 
 ```shell script
+# may require `sudo` depends on yous docker setting
 docker logs mockserver
 ```
