@@ -37,7 +37,7 @@ Response
 ```json
 {
 "method": "GET",
-"path": "/rdp/127.0.0.1"
+"path": "/ping/127.0.0.1"
 }
 ```
 
