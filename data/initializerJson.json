@@ -1,0 +1,20 @@
+[
+  {
+    "httpRequest": {
+      "path": "/ping/.*"
+    },
+    "httpResponseTemplate": {
+      "template": "return { statusCode: 200, cookies: { session: request.headers[\"Session-Id\"] && request.headers[\"Session-Id\"][0] }, headers: { Date: [ Date() ] }, body: JSON.stringify({method: request.method, path: request.path, body: request.body}) };",
+      "templateType": "JAVASCRIPT"
+    }
+  },
+  {
+    "httpRequest": {
+      "path": "/rdp/.*"
+    },
+    "httpResponseTemplate": {
+      "template": "return { statusCode: 200, cookies: { session: request.headers[\"Session-Id\"] && request.headers[\"Session-Id\"][0] }, headers: { Date: [ Date() ] }, body: JSON.stringify({method: request.method, path: request.path, body: request.body}) };",
+      "templateType": "JAVASCRIPT"
+    }
+  }
+]
