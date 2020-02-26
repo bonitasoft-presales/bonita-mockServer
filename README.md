@@ -19,7 +19,7 @@ Edit [initializerJson.json](data/initializerJson.json) file. many examples avail
 ## Run
 
 ```shell script
-# may require `sudo` depends on yous docker setting
+# may require `sudo` depends on your docker setting
 docker run -d \
  --name mockserver \
  -p 1080:1080 \
