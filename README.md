@@ -7,7 +7,7 @@ Based on [mockServer](http://www.mock-server.com/), using its docker distributio
 ## Build
 
 ```shell script
-# may require `sudo` depends on yous docker setting
+# may require `sudo` depends on your docker setting
 docker build -t bonita-mock-server .
 ```
 
