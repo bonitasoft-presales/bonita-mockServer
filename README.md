@@ -44,6 +44,6 @@ Response
 ## Check logs
 
 ```shell script
-# may require `sudo` depends on yous docker setting
+# may require `sudo` depends on your docker setting
 docker logs mockserver
 ```
